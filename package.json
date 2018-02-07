@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "homepage": "https://negamaxi.github.io",
   "private": true,
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
