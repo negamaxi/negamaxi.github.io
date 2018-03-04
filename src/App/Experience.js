@@ -3,9 +3,9 @@ import React from 'react'
 const Unit = ({ title, from, till, description, link, github }) => (
   <div className="w3-container">
     <h5 className="w3-opacity"><b>{title}</b></h5>
-    <h6 className="w3-text-teal">
+    <h6 className="color1">
       <i className="fa fa-calendar fa-fw w3-margin-right" />
-      {from} - {till || (<span className="w3-tag w3-teal w3-round">present</span>)}
+      {from} - {till || (<small className="w3-tag background1 w3-round uppercase">present</small>)}
     </h6>
     <p>{description}</p>
     {
@@ -62,7 +62,7 @@ const data = [
 export default () => (
   <div className="w3-container w3-card w3-white w3-margin-bottom">
     <h2 className="w3-text-grey w3-padding-16">
-      <i className="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal" />Work Experience
+      <i className="fa fa-code fa-fw w3-margin-right w3-xxlarge color1" />Work Experience
     </h2>
     {
       data.map(Unit)

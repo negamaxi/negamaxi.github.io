@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Experience from './App/Experience'
+import Skills from './App/Skills';
 
 class App extends Component {
   render() {
@@ -21,56 +22,31 @@ class App extends Component {
             </div>
           </div>
           <div className="w3-container">
-            <p><i className="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal" />
+            <p><i className="fa fa-briefcase fa-fw w3-margin-right color1" />
               Full stack javascript developer
             </p>
-            <p><i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal" />
+            <p><i className="fa fa-home fa-fw w3-margin-right w3-large color1" />
               Minsk, Belarus
             </p>
-            <p><i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal" />
+            <p><i className="fa fa-envelope fa-fw w3-margin-right w3-large color1" />
               negamaxi@gmail.com
             </p>
             <hr />
             <p className="w3-large">
-              <b><i className="fa fa-asterisk fa-fw w3-margin-right w3-text-teal" />Skills</b>
+              <b><i className="fa fa-asterisk fa-fw w3-margin-right color1" />Skills</b>
             </p>
-            <p>JavaScript</p>
-            <div className="w3-light-grey w3-round-xlarge w3-small">
-              <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '90%'}}>90%</div>
-            </div>
-            <p>React.js (JSX)</p>
-            <div className="w3-light-grey w3-round-xlarge w3-small">
-              <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '80%'}}>
-                <div className="w3-center w3-text-white">80%</div>
-              </div>
-            </div>
-            <p>Node.js</p>
-            <div className="w3-light-grey w3-round-xlarge w3-small">
-              <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '75%'}}>75%</div>
-            </div>
-            <p>HTML + CSS</p>
-            <div className="w3-light-grey w3-round-xlarge w3-small">
-              <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '65%'}}>65%</div>
-            </div>
-            <p>Electron</p>
-            <div className="w3-light-grey w3-round-xlarge w3-small">
-              <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '60%'}}>60%</div>
-            </div>
-            <p>Vue.js</p>
-            <div className="w3-light-grey w3-round-xlarge w3-small">
-              <div className="w3-container w3-center w3-round-xlarge w3-teal" style={{width: '45%'}}>50%</div>
-            </div>
+            <Skills />
             <br />
             <p className="w3-large w3-text-theme">
-              <b><i className="fa fa-globe fa-fw w3-margin-right w3-text-teal" />Languages</b>
+              <b><i className="fa fa-globe fa-fw w3-margin-right color1" />Languages</b>
             </p>
             <p>Russian</p>
             <div className="w3-light-grey w3-round-xlarge">
-              <div className="w3-round-xlarge w3-teal" style={{height: 24, width: '100%'}} />
+              <div className="w3-round-xlarge background2" style={{height: 24, width: '100%'}} />
             </div>
             <p>English</p>
             <div className="w3-light-grey w3-round-xlarge">
-              <div className="w3-round-xlarge w3-teal" style={{height: 24, width: '55%'}} />
+              <div className="w3-round-xlarge background2" style={{height: 24, width: '55%'}} />
             </div>
             <br />
           </div>
@@ -81,16 +57,16 @@ class App extends Component {
       <div className="w3-twothird">
         <Experience />
         <div className="w3-container w3-card w3-white">
-          <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal" />Education</h2>
+          <h2 className="w3-text-grey w3-padding-16"><i className="fa fa-certificate fa-fw w3-margin-right w3-xxlarge color1" />Education</h2>
           <div className="w3-container">
             <h5 className="w3-opacity"><b>Self-education</b></h5>
-            <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />2014 - present</h6>
+            <h6 className="color1"><i className="fa fa-calendar fa-fw w3-margin-right" />2014 - present</h6>
             <p>Almost all my programming skills come from on a day-to-day basis practicing.</p>
             <hr />
           </div>
           <div className="w3-container">
             <h5 className="w3-opacity"><b>Belarusian State University</b></h5>
-            <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />2009 - 2016</h6>
+            <h6 className="color1"><i className="fa fa-calendar fa-fw w3-margin-right" />2009 - 2016</h6>
             <p>Web-journalist</p>
             <hr />
           </div>
@@ -101,7 +77,7 @@ class App extends Component {
     </div>
     {/* End Page Container */}
   </div>
-  <footer className="w3-container w3-teal w3-center w3-margin-top">
+  <footer className="w3-container background1 w3-center w3-margin-top">
     <p>Find me on social media.</p>
     <a href='https://twitter.com/MaxiThat'>
       <i className="fa fa-twitter w3-hover-opacity" />
