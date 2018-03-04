@@ -89,7 +89,7 @@ class App extends Component {
             <hr />
           </div>
           <div className="w3-container">
-            <h5 className="w3-opacity"><b>Belorussian State University</b></h5>
+            <h5 className="w3-opacity"><b>Belarusian State University</b></h5>
             <h6 className="w3-text-teal"><i className="fa fa-calendar fa-fw w3-margin-right" />2009 - 2016</h6>
             <p>Web-journalist</p>
             <hr />
